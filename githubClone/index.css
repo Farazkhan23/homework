@@ -1,0 +1,52 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: black;
+}
+nav{
+	padding-top: 25px;
+	padding-left: 100px;
+	background: #222;	
+	height: 50px;
+}
+
+#navList li{
+	color: #fff;
+	padding: 10px;
+	font-size: 20px;
+	display: inline;
+}
+#or{
+	color: #fff;
+}
+.login{
+	color: #fff;
+	padding: 20px;
+}
+#div3{
+	/*border: 1px solid blue;*/
+	width: 100%;
+}
+#div1{
+	border: 1px solid red;
+	float:left;
+	width: 30%;
+	padding-top: 100px;
+	padding-left: 50px;
+}
+#paraHead{
+	color: white;
+	font-size: 50px;
+}
+#para{
+	color: grey;
+	font-size: 20px;
+}
+#div2{
+
+	border: 1px solid green;
+	width: 55%;
+	float: right;
+}
