@@ -1,0 +1,92 @@
+*	{
+	padding: 0px;
+	margin:0px;
+}
+
+#div1{
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;	
+	width: 40%;
+
+	padding-left: 50px;
+}
+#login{
+	font-weight: bold;
+	font-size: 15px;
+	background: #fff;
+	margin:90px 5px 0px 100px;
+	border: none;
+}
+#signup{
+	font-weight: bold;
+	font-size: 15px;
+	border: 1px solid black;
+	background: #222;
+	padding: 10px;
+	color: #fff;
+}
+#div2{
+	float:right;
+	background-size: cover; 	
+	height: 82px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;	
+}
+#div3{
+	 padding: 60px 0px 0px 100px;
+}
+#div3>h1{
+	font-size: 50px;
+}
+#tagline {
+	font-size: 30px;
+	color:grey;
+}
+
+#search{
+	margin-top: 25px;
+	padding: 20px;
+}
+#button{
+	color: #fff;
+	border:none;
+	margin-top: 25px;
+	padding: 22px;
+	background-color:#FF822B; 
+}
+#cities{
+	margin-top: 100px;
+	font-size: 15px;
+	color:grey;	
+}
+
+#div4{
+	height: 100%;
+	background: #2C1F17;
+	
+}
+
+.img{
+	margin-left: 45px;
+	margin-right:250px;
+	width:150px;
+	height: 300px;
+}
+#div5{
+	color:#fff;
+	display: flex;
+	justify-content: space-around;
+
+	/*padding: 5px 300px 5px 0px;	*/
+}
+#div6{
+	padding: 10px;
+	color:grey;
+	padding-right: 100px;
+	display: flex;
+	justify-content: space-around;
+
+}

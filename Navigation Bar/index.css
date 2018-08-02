@@ -1,0 +1,32 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+ul{
+	list-style-type: none;
+	padding: 10px;
+	margin: 0px;
+	background: #222;
+	
+	position:fixed;
+	top:45px;
+	height: 100%;
+}
+li {
+	
+	
+}
+li a{
+	padding: 5px 20px;
+	color: #fff;
+	font-family: "Open Sans";
+	cursor: pointer;
+}
+
+li a:hover{
+	background-color: #000;
+}
+
+#nac{
+	width: 30%;
+}
