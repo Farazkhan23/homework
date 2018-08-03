@@ -1,52 +1,68 @@
 *{
 	padding: 0px;
 	margin: 0px;
+	color:#f5f5f5;
+	font-family: sans-serif;
+	font-size: medium;
 }
 body{
 	background: black;
 }
 nav{
-	padding-top: 25px;
-	padding-left: 100px;
-	background: #222;	
-	height: 50px;
+	text-align: center;
+	background: #24292E;
+
 }
 
+#navList{
+	list-style-type: none;
+}
 #navList li{
-	color: #fff;
-	padding: 10px;
-	font-size: 20px;
-	display: inline;
+	margin: 8px 0px 10px 3px;
+	padding: 10px 5px;
+	display: inline-block;
+}
+a{	
+	font-family: "Open Sans";
+	text-decoration: none;
+	font-weight: 100;
+	font-size: 15px;
+}
+a:hover{
+	color: #888;
+}
+
+#features{
+	margin-left: 10px;
 }
 #or{
 	color: #fff;
 }
-.login{
-	color: #fff;
-	padding: 20px;
-}
-#div3{
-	/*border: 1px solid blue;*/
-	width: 100%;
-}
-#div1{
-	border: 1px solid red;
-	float:left;
-	width: 30%;
-	padding-top: 100px;
-	padding-left: 50px;
-}
-#paraHead{
-	color: white;
-	font-size: 50px;
-}
-#para{
-	color: grey;
-	font-size: 20px;
-}
-#div2{
 
-	border: 1px solid green;
-	width: 55%;
-	float: right;
+#icon{
+	
+	position: relative;
+	top: 5px;
+	margin-right: 15px;
+	font-size: 30px;
+}
+
+
+#search{
+	width: 300px;
+	padding: 7px;
+	margin-left: 50px;
+	border: none;
+	border-radius: 3px;
+	background-color:#3F4448;
+}
+.login{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.login:hover{
+	color: #fff;	
 }
