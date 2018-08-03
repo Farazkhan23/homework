@@ -1,0 +1,150 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: "Open Sans";
+}
+body{
+	background: url('https://assets-cdn.github.com/images/modules/site/heroes/simple-codelines.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #2B3137;
+}
+#nav li{
+	font-size: 15px;
+	display: inline;
+	color: #fff;
+	padding: 12px;
+	
+}
+#nav li a:link{
+	text-decoration: none;
+	color:#fff;
+}
+#nav li a:hover{
+	color:#999;
+}
+
+nav{
+	text-align: center;
+	background-color: #24292E;
+	font-size: 5px;
+	padding: 20px;
+}
+i{
+	position: relative;
+	top:5px;
+	margin-right: 25px;
+	font-size: 30px;
+}
+i:hover{
+	color:#fff;
+}
+#search{
+	border: none;
+	margin-left: 50px;
+	padding: 7px;
+	width: 270px;
+	border-radius: 3px;
+	background: #404448;
+}
+
+#search::placeholder{
+	color: #888;
+	font-weight: bold;
+}
+#or{
+	padding:5px 8px;
+	font-size: 17px;
+	color: #576055;
+}
+.signup{
+	margin-left:-15px;
+	margin-right: -15px;
+	font-weight: bold;
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;	
+}
+
+.signup:hover{
+	color: #fff !important;
+}
+#div1{
+	float: left;
+	width:50%;
+	padding-left: 70px;
+	margin: 120px 0px 50px 50px;	
+}
+#p1{
+	line-height: 1em;
+	color: #fff;
+	font-size: 70px;
+	font-family: Arial;
+	font-weight:500;
+}
+#p2{
+	margin-top: 10px;
+	/*margin-right: 10px;	*/
+	padding-right: 10px;
+	font-size: 22px;
+	color: grey;
+}
+.link:link{
+	text-decoration-line: underline;
+	text-decoration-color: grey;
+	color: #fff;
+}
+.link:hover{
+	text-decoration-color: #fff;
+}
+#div2{
+	padding-top: 90px;
+	float: left;
+	width:30%;
+}
+#form{
+	text-align: left;
+	height: auto;
+	border-radius: 3px;
+	padding:40px 65px 20px 30px;
+	width: auto;
+	background-color: #fff;
+	box-shadow: 7px 7px 10px #222;
+}
+.formlabel{
+	font-size: 12px;
+	color: darkgrey;
+}
+.inputbutton{
+	margin:5px 0px;
+	padding:10px;
+	width: 100%;	
+	border: 1px solid rgba(136,136,136,0.5);
+	border-radius: 5px;
+}
+
+.inputbutton::placeholder{
+
+	color: rgba(136,136,136,0.7);
+}
+#signbutton{
+	color:#fff;
+	border: 1px solid green;
+	border-radius: 7px;
+	width: 100%;
+	margin-top: 10px;
+	padding:10px;
+	background-color: #00B456;
+}
+.spanpara{
+	text-align: center;
+	color:grey;
+	font-size: 11px;
+}
+#signbutton:hover{
+	cursor: pointer;
+	border: 1px solid black;
+}
+a{
+	text-decoration: none;
+}
