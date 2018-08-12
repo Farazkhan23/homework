@@ -3,12 +3,7 @@
 	margin: 0px;
 	font-family: "Open Sans";
 }
-body{
-	background: url('https://assets-cdn.github.com/images/modules/site/heroes/simple-codelines.svg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: #2B3137;
-}
+
 #nav li{
 	font-size: 15px;
 	display: inline;
@@ -68,6 +63,18 @@ i:hover{
 
 .signup:hover{
 	color: #fff !important;
+}
+#divpg1{
+	background: url('https://assets-cdn.github.com/images/modules/site/heroes/simple-codelines.svg') !important;
+	background-repeat: no-repeat;
+	background-size: cover !important;
+	background-color: #2B3137 !important; 
+	width:100%;
+	height: 100%;
+}
+#div1img{
+	width: 20%;
+	height: 20%;
 }
 #div1{
 	float: left;
@@ -147,4 +154,53 @@ i:hover{
 }
 a{
 	text-decoration: none;
+}
+
+#div2img{
+	/*float: left;*/
+	/*margin-top:-50px;*/
+	margin-left: 400px;
+}
+#divp1{
+	/*background-color: #fff;*/
+	font-size: 20px;
+	margin-top: 50px;
+}
+#divp2{
+	font-size: 17px;
+	padding:5px;
+}	
+#div2p1{
+	color:grey;
+	font-size: 20px;
+}
+#divpg3 p{
+	display: flex;
+	justify-content: center;
+	padding-top:100px;
+}
+#divico img{
+	width: 50px;
+	padding: 0px 60px 10px 20px;
+	text-decoration-color: grey;
+}
+#para{
+	padding-top: 60px;
+}
+#guiltyh1{
+	padding:10px;
+	font-size: 40px;
+}
+#signb{
+	margin:20px;
+	padding:15px;
+	font-size: 15px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	background-color: #fff; 
+	color:blue;
+}
+#signb:hover{
+	color:#fff;
+	background:#0E65D1;
 }
